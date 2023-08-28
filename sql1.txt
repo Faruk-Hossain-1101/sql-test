@@ -1,0 +1,3 @@
+create table student(id int not null primary key, name varchar(20) not null, age int not null, address varchar(25));
+
+INSERT INTO student (id, name, age, address) VALUES((1, 'faruk', 5, 'kandi'), (2, 'hossain', 20, 'kandi'), (3, 'sam', 25, 'kandi'), (4, 'ram', 35, 'kandi'), (5, 'faruk', 25, 'benipur'));
